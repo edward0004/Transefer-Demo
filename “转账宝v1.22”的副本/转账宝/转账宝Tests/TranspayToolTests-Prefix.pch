@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '转账宝Tests' target in the '转账宝Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

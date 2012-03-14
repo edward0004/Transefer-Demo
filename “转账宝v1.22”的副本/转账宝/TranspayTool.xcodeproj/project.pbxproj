@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB40532F147A6D8F002A52D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB40532E147A6D8F002A52D4 /* UIKit.framework */; };
+		CB405331147A6D8F002A52D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB405330147A6D8F002A52D4 /* Foundation.framework */; };
+		CB405333147A6D8F002A52D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB405332147A6D8F002A52D4 /* CoreGraphics.framework */; };
+		CB405339147A6D8F002A52D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB405337147A6D8F002A52D4 /* InfoPlist.strings */; };
+		CB40533C147A6D8F002A52D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40533B147A6D8F002A52D4 /* main.m */; };
+		CB40533F147A6D8F002A52D4 /* ___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40533E147A6D8F002A52D4 /* ___AppDelegate.m */; };
+		CB405342147A6D8F002A52D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB405340147A6D8F002A52D4 /* MainWindow.xib */; };
+		CB405348147A6D8F002A52D4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB405347147A6D8F002A52D4 /* SecondViewController.m */; };
+		CB40534E147A6D8F002A52D4 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB40534C147A6D8F002A52D4 /* SecondView.xib */; };
+		CB405355147A6D90002A52D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB40532E147A6D8F002A52D4 /* UIKit.framework */; };
+		CB405356147A6D90002A52D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB405330147A6D8F002A52D4 /* Foundation.framework */; };
+		CB405357147A6D90002A52D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB405332147A6D8F002A52D4 /* CoreGraphics.framework */; };
+		CB40535F147A6D90002A52D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB40535D147A6D90002A52D4 /* InfoPlist.strings */; };
+		CB405362147A6D90002A52D4 /* ___Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = CB405361147A6D90002A52D4 /* ___Tests.h */; };
+		CB405364147A6D91002A52D4 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB405363147A6D91002A52D4 /* ___Tests.m */; };
+		CB405374147A6E34002A52D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB405372147A6E33002A52D4 /* LoginViewController.m */; };
+		CB405375147A6E34002A52D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB405372147A6E33002A52D4 /* LoginViewController.m */; };
+		CB405376147A6E34002A52D4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB405373147A6E34002A52D4 /* LoginViewController.xib */; };
+		CB405377147A6E34002A52D4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB405373147A6E34002A52D4 /* LoginViewController.xib */; };
+		CB40537B147A735A002A52D4 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = CB405379147A7353002A52D4 /* Help.m */; };
+		CB40537C147A735A002A52D4 /* Help.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB40537A147A7356002A52D4 /* Help.xib */; };
+		CB8980E0148322750073399E /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8980DF148322750073399E /* whiteButton.png */; };
+		CB8980E31483227C0073399E /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8980E21483227C0073399E /* blueButton.png */; };
+		CB8980F5148323380073399E /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8980F4148323380073399E /* apress_logo.png */; };
+		CB89E1501484B27700E8545E /* bank.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89E14F1484B27700E8545E /* bank.m */; };
+		CB89E1541484B39B00E8545E /* CustomCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89E1521484B39A00E8545E /* CustomCell2.m */; };
+		CB89E1551484B39B00E8545E /* CustomCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB89E1531484B39B00E8545E /* CustomCell2.xib */; };
+		CB89E1591484B49400E8545E /* bankResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89E1571484B49100E8545E /* bankResult.m */; };
+		CB89E15A1484B49400E8545E /* bankResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB89E1581484B49200E8545E /* bankResult.xib */; };
+		CB8BABB8147B3A1D00B20CF8 /* CustomCell110.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8BABB6147B3A1B00B20CF8 /* CustomCell110.m */; };
+		CB8BABB9147B3A1D00B20CF8 /* CustomCell110.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8BABB7147B3A1C00B20CF8 /* CustomCell110.xib */; };
+		CB8E70C114835077001DB1F6 /* banding.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E70C014835077001DB1F6 /* banding.m */; };
+		CB8E70C5148351F4001DB1F6 /* bandingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E70C3148351F3001DB1F6 /* bandingResult.m */; };
+		CB8E70C6148351F4001DB1F6 /* bandingResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8E70C4148351F3001DB1F6 /* bandingResult.xib */; };
+		CB8E70E014835CEF001DB1F6 /* CustomCell12.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E70DE14835CEC001DB1F6 /* CustomCell12.m */; };
+		CB8E70E114835CEF001DB1F6 /* CustomCell12.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8E70DF14835CED001DB1F6 /* CustomCell12.xib */; };
+		CB8F38261483C459002F5773 /* history.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F38251483C459002F5773 /* history.m */; };
+		CB8F382A1483C567002F5773 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F38281483C566002F5773 /* CustomCell.m */; };
+		CB8F382B1483C567002F5773 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8F38291483C566002F5773 /* CustomCell.xib */; };
+		CB8F382F1483C6EA002F5773 /* historyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F382D1483C6D1002F5773 /* historyResult.m */; };
+		CB8F38301483C6EA002F5773 /* historyResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8F382E1483C6D7002F5773 /* historyResult.xib */; };
+		CB8F7B0814837D21006EA7DC /* client.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F7B0714837D21006EA7DC /* client.m */; };
+		CB8F7B0C14837DA1006EA7DC /* clientview.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F7B0A14837D9C006EA7DC /* clientview.m */; };
+		CB8F7B0D14837DA1006EA7DC /* clientview.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8F7B0B14837D9E006EA7DC /* clientview.xib */; };
+		CB8FB65B1486612200B7A2CE /* SaveResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB6561486612200B7A2CE /* SaveResult.m */; };
+		CB8FB65C1486612200B7A2CE /* SaveResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8FB6571486612200B7A2CE /* SaveResult.xib */; };
+		CB8FB65D1486612200B7A2CE /* DetailViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8FB6591486612200B7A2CE /* DetailViewcontroller.m */; };
+		CB8FB65E1486612200B7A2CE /* DetailViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8FB65A1486612200B7A2CE /* DetailViewcontroller.xib */; };
+		CB924AE1147A761500B751FD /* tab1副本 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB924AE0147A761500B751FD /* tab1副本 2.png */; };
+		CB924AE4147A762300B751FD /* tab2副本 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB924AE3147A762300B751FD /* tab2副本 2.png */; };
+		CB924AE6147A762B00B751FD /* tab3副本 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB924AE5147A762B00B751FD /* tab3副本 2.png */; };
+		CB924AE8147A763000B751FD /* tab4副本 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB924AE7147A763000B751FD /* tab4副本 2.png */; };
+		CB924AEC147A76F300B751FD /* consult.m in Sources */ = {isa = PBXBuildFile; fileRef = CB924AEA147A76F200B751FD /* consult.m */; };
+		CB924AED147A76F300B751FD /* consult.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB924AEB147A76F200B751FD /* consult.xib */; };
+		CB924B22147A89BF00B751FD /* ModelSave.m in Sources */ = {isa = PBXBuildFile; fileRef = CB924B21147A89BF00B751FD /* ModelSave.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB405358147A6D90002A52D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB405321147A6D8F002A52D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB405329147A6D8F002A52D4;
+			remoteInfo = "转账宝";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB40532A147A6D8F002A52D4 /* TranspayTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranspayTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB40532E147A6D8F002A52D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB405330147A6D8F002A52D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB405332147A6D8F002A52D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB405336147A6D8F002A52D4 /* TranspayTool-Info.plist */ = {isa = PBXFileReference; path = "TranspayTool-Info.plist"; sourceTree = "<group>"; };
+		CB405338147A6D8F002A52D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB40533A147A6D8F002A52D4 /* TranspayTool-Prefix.pch */ = {isa = PBXFileReference; path = "TranspayTool-Prefix.pch"; sourceTree = "<group>"; };
+		CB40533B147A6D8F002A52D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB40533D147A6D8F002A52D4 /* ___AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "___AppDelegate.h"; sourceTree = "<group>"; };
+		CB40533E147A6D8F002A52D4 /* ___AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___AppDelegate.m"; sourceTree = "<group>"; };
+		CB405341147A6D8F002A52D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB405346147A6D8F002A52D4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB405347147A6D8F002A52D4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CB40534D147A6D8F002A52D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		CB405354147A6D90002A52D4 /* TranspayToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranspayToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB40535C147A6D90002A52D4 /* TranspayToolTests-Info.plist */ = {isa = PBXFileReference; path = "TranspayToolTests-Info.plist"; sourceTree = "<group>"; };
+		CB40535E147A6D90002A52D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB405360147A6D90002A52D4 /* TranspayToolTests-Prefix.pch */ = {isa = PBXFileReference; path = "TranspayToolTests-Prefix.pch"; sourceTree = "<group>"; };
+		CB405361147A6D90002A52D4 /* ___Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "___Tests.h"; sourceTree = "<group>"; };
+		CB405363147A6D91002A52D4 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		CB405371147A6E33002A52D4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CB405372147A6E33002A52D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CB405373147A6E34002A52D4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CB405378147A7352002A52D4 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		CB405379147A7353002A52D4 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		CB40537A147A7356002A52D4 /* Help.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Help.xib; sourceTree = "<group>"; };
+		CB8980DF148322750073399E /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		CB8980E21483227C0073399E /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		CB8980F4148323380073399E /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apress_logo.png; sourceTree = "<group>"; };
+		CB89E14E1484B27700E8545E /* bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bank.h; sourceTree = "<group>"; };
+		CB89E14F1484B27700E8545E /* bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bank.m; sourceTree = "<group>"; };
+		CB89E1511484B39A00E8545E /* CustomCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell2.h; sourceTree = "<group>"; };
+		CB89E1521484B39A00E8545E /* CustomCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell2.m; sourceTree = "<group>"; };
+		CB89E1531484B39B00E8545E /* CustomCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell2.xib; sourceTree = "<group>"; };
+		CB89E1561484B49000E8545E /* bankResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankResult.h; sourceTree = "<group>"; };
+		CB89E1571484B49100E8545E /* bankResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bankResult.m; sourceTree = "<group>"; };
+		CB89E1581484B49200E8545E /* bankResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bankResult.xib; sourceTree = "<group>"; };
+		CB89E15B1484B56900E8545E /* UIViewPassValueDelegate2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPassValueDelegate2.h; sourceTree = "<group>"; };
+		CB8BABB5147B3A1A00B20CF8 /* CustomCell110.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell110.h; sourceTree = "<group>"; };
+		CB8BABB6147B3A1B00B20CF8 /* CustomCell110.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell110.m; sourceTree = "<group>"; };
+		CB8BABB7147B3A1C00B20CF8 /* CustomCell110.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell110.xib; sourceTree = "<group>"; };
+		CB8E70BF14835077001DB1F6 /* banding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = banding.h; sourceTree = "<group>"; };
+		CB8E70C014835077001DB1F6 /* banding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = banding.m; sourceTree = "<group>"; };
+		CB8E70C2148351F3001DB1F6 /* bandingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bandingResult.h; sourceTree = "<group>"; };
+		CB8E70C3148351F3001DB1F6 /* bandingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bandingResult.m; sourceTree = "<group>"; };
+		CB8E70C4148351F3001DB1F6 /* bandingResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bandingResult.xib; sourceTree = "<group>"; };
+		CB8E70DD14835CEB001DB1F6 /* CustomCell12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell12.h; sourceTree = "<group>"; };
+		CB8E70DE14835CEC001DB1F6 /* CustomCell12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell12.m; sourceTree = "<group>"; };
+		CB8E70DF14835CED001DB1F6 /* CustomCell12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell12.xib; sourceTree = "<group>"; };
+		CB8F38241483C459002F5773 /* history.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = history.h; sourceTree = "<group>"; };
+		CB8F38251483C459002F5773 /* history.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = history.m; sourceTree = "<group>"; };
+		CB8F38271483C566002F5773 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CB8F38281483C566002F5773 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		CB8F38291483C566002F5773 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		CB8F382C1483C6CD002F5773 /* historyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = historyResult.h; sourceTree = "<group>"; };
+		CB8F382D1483C6D1002F5773 /* historyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = historyResult.m; sourceTree = "<group>"; };
+		CB8F382E1483C6D7002F5773 /* historyResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = historyResult.xib; sourceTree = "<group>"; };
+		CB8F38311483C92F002F5773 /* UIViewPassValueDelegate1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPassValueDelegate1.h; sourceTree = "<group>"; };
+		CB8F7AF914837438006EA7DC /* UIViewPassValueDelegate1111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPassValueDelegate1111.h; sourceTree = "<group>"; };
+		CB8F7B0614837D21006EA7DC /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		CB8F7B0714837D21006EA7DC /* client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = client.m; sourceTree = "<group>"; };
+		CB8F7B0914837D9B006EA7DC /* clientview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clientview.h; sourceTree = "<group>"; };
+		CB8F7B0A14837D9C006EA7DC /* clientview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clientview.m; sourceTree = "<group>"; };
+		CB8F7B0B14837D9E006EA7DC /* clientview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = clientview.xib; sourceTree = "<group>"; };
+		CB8FB6551486612200B7A2CE /* SaveResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveResult.h; sourceTree = "<group>"; };
+		CB8FB6561486612200B7A2CE /* SaveResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveResult.m; sourceTree = "<group>"; };
+		CB8FB6571486612200B7A2CE /* SaveResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveResult.xib; sourceTree = "<group>"; };
+		CB8FB6581486612200B7A2CE /* DetailViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewcontroller.h; sourceTree = "<group>"; };
+		CB8FB6591486612200B7A2CE /* DetailViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewcontroller.m; sourceTree = "<group>"; };
+		CB8FB65A1486612200B7A2CE /* DetailViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewcontroller.xib; sourceTree = "<group>"; };
+		CB924AE0147A761500B751FD /* tab1副本 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1副本 2.png"; sourceTree = "<group>"; };
+		CB924AE3147A762300B751FD /* tab2副本 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab2副本 2.png"; sourceTree = "<group>"; };
+		CB924AE5147A762B00B751FD /* tab3副本 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab3副本 2.png"; sourceTree = "<group>"; };
+		CB924AE7147A763000B751FD /* tab4副本 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab4副本 2.png"; sourceTree = "<group>"; };
+		CB924AE9147A76F200B751FD /* consult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = consult.h; sourceTree = "<group>"; };
+		CB924AEA147A76F200B751FD /* consult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = consult.m; sourceTree = "<group>"; };
+		CB924AEB147A76F200B751FD /* consult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = consult.xib; sourceTree = "<group>"; };
+		CB924B20147A89BF00B751FD /* ModelSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelSave.h; sourceTree = "<group>"; };
+		CB924B21147A89BF00B751FD /* ModelSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelSave.m; sourceTree = "<group>"; };
+		CB93D2B8148506E600AB5E98 /* UIViewPassValueDelegate22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPassValueDelegate22.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB405327147A6D8F002A52D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40532F147A6D8F002A52D4 /* UIKit.framework in Frameworks */,
+				CB405331147A6D8F002A52D4 /* Foundation.framework in Frameworks */,
+				CB405333147A6D8F002A52D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB405350147A6D90002A52D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB405355147A6D90002A52D4 /* UIKit.framework in Frameworks */,
+				CB405356147A6D90002A52D4 /* Foundation.framework in Frameworks */,
+				CB405357147A6D90002A52D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB40531F147A6D8F002A52D4 = {
+			isa = PBXGroup;
+			children = (
+				CB405334147A6D8F002A52D4 /* Transpaymainfile */,
+				CB40535A147A6D90002A52D4 /* 转账宝Tests */,
+				CB40532D147A6D8F002A52D4 /* Frameworks */,
+				CB40532B147A6D8F002A52D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB40532B147A6D8F002A52D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB40532A147A6D8F002A52D4 /* TranspayTool.app */,
+				CB405354147A6D90002A52D4 /* TranspayToolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB40532D147A6D8F002A52D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB40532E147A6D8F002A52D4 /* UIKit.framework */,
+				CB405330147A6D8F002A52D4 /* Foundation.framework */,
+				CB405332147A6D8F002A52D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB405334147A6D8F002A52D4 /* Transpaymainfile */ = {
+			isa = PBXGroup;
+			children = (
+				CB40533D147A6D8F002A52D4 /* ___AppDelegate.h */,
+				CB40533E147A6D8F002A52D4 /* ___AppDelegate.m */,
+				CB405371147A6E33002A52D4 /* LoginViewController.h */,
+				CB405372147A6E33002A52D4 /* LoginViewController.m */,
+				CB8F7B0314837CAB006EA7DC /* Directpay */,
+				CB405346147A6D8F002A52D4 /* SecondViewController.h */,
+				CB405347147A6D8F002A52D4 /* SecondViewController.m */,
+				CB89E14C1484B25800E8545E /* TransBank */,
+				CB8F38221483C434002F5773 /* TransHistory */,
+				CB924AE9147A76F200B751FD /* consult.h */,
+				CB924AEA147A76F200B751FD /* consult.m */,
+				CB9616A614834C1F002065DE /* Transpay */,
+				CB924B1F147A89A200B751FD /* Querypay */,
+				CB405379147A7353002A52D4 /* Help.m */,
+				CB405378147A7352002A52D4 /* Help.h */,
+				CB924AEE147A773A00B751FD /* resoures */,
+				CB405335147A6D8F002A52D4 /* Supporting Files */,
+			);
+			name = Transpaymainfile;
+			path = "转账宝";
+			sourceTree = "<group>";
+		};
+		CB405335147A6D8F002A52D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB405336147A6D8F002A52D4 /* TranspayTool-Info.plist */,
+				CB405337147A6D8F002A52D4 /* InfoPlist.strings */,
+				CB40533A147A6D8F002A52D4 /* TranspayTool-Prefix.pch */,
+				CB40533B147A6D8F002A52D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB40535A147A6D90002A52D4 /* 转账宝Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB405361147A6D90002A52D4 /* ___Tests.h */,
+				CB405363147A6D91002A52D4 /* ___Tests.m */,
+				CB40535B147A6D90002A52D4 /* Supporting Files */,
+			);
+			path = "转账宝Tests";
+			sourceTree = "<group>";
+		};
+		CB40535B147A6D90002A52D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB40535C147A6D90002A52D4 /* TranspayToolTests-Info.plist */,
+				CB40535D147A6D90002A52D4 /* InfoPlist.strings */,
+				CB405360147A6D90002A52D4 /* TranspayToolTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB89E14C1484B25800E8545E /* TransBank */ = {
+			isa = PBXGroup;
+			children = (
+				CB89E15B1484B56900E8545E /* UIViewPassValueDelegate2.h */,
+				CB89E14E1484B27700E8545E /* bank.h */,
+				CB89E14F1484B27700E8545E /* bank.m */,
+				CB89E1511484B39A00E8545E /* CustomCell2.h */,
+				CB89E1521484B39A00E8545E /* CustomCell2.m */,
+				CB89E1531484B39B00E8545E /* CustomCell2.xib */,
+				CB89E1561484B49000E8545E /* bankResult.h */,
+				CB89E1571484B49100E8545E /* bankResult.m */,
+				CB89E1581484B49200E8545E /* bankResult.xib */,
+			);
+			name = TransBank;
+			sourceTree = "<group>";
+		};
+		CB8F38221483C434002F5773 /* TransHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F38241483C459002F5773 /* history.h */,
+				CB8F38311483C92F002F5773 /* UIViewPassValueDelegate1.h */,
+				CB8F38251483C459002F5773 /* history.m */,
+				CB8F38271483C566002F5773 /* CustomCell.h */,
+				CB8F38281483C566002F5773 /* CustomCell.m */,
+				CB8F38291483C566002F5773 /* CustomCell.xib */,
+				CB8F382C1483C6CD002F5773 /* historyResult.h */,
+				CB8F382D1483C6D1002F5773 /* historyResult.m */,
+				CB8F382E1483C6D7002F5773 /* historyResult.xib */,
+			);
+			name = TransHistory;
+			sourceTree = "<group>";
+		};
+		CB8F7B0314837CAB006EA7DC /* Directpay */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F7B0614837D21006EA7DC /* client.h */,
+				CB8F7B0714837D21006EA7DC /* client.m */,
+				CB8F7B0914837D9B006EA7DC /* clientview.h */,
+				CB8F7B0A14837D9C006EA7DC /* clientview.m */,
+				CB8F7B0B14837D9E006EA7DC /* clientview.xib */,
+			);
+			name = Directpay;
+			sourceTree = "<group>";
+		};
+		CB924AEE147A773A00B751FD /* resoures */ = {
+			isa = PBXGroup;
+			children = (
+				CB8980E21483227C0073399E /* blueButton.png */,
+				CB8980F4148323380073399E /* apress_logo.png */,
+				CB8980DF148322750073399E /* whiteButton.png */,
+				CB405340147A6D8F002A52D4 /* MainWindow.xib */,
+				CB405373147A6E34002A52D4 /* LoginViewController.xib */,
+				CB40534C147A6D8F002A52D4 /* SecondView.xib */,
+				CB924AEB147A76F200B751FD /* consult.xib */,
+				CB40537A147A7356002A52D4 /* Help.xib */,
+				CB924AE0147A761500B751FD /* tab1副本 2.png */,
+				CB924AE3147A762300B751FD /* tab2副本 2.png */,
+				CB924AE5147A762B00B751FD /* tab3副本 2.png */,
+				CB924AE7147A763000B751FD /* tab4副本 2.png */,
+			);
+			name = resoures;
+			sourceTree = "<group>";
+		};
+		CB924B1F147A89A200B751FD /* Querypay */ = {
+			isa = PBXGroup;
+			children = (
+				CB93D2B8148506E600AB5E98 /* UIViewPassValueDelegate22.h */,
+				CB924B20147A89BF00B751FD /* ModelSave.h */,
+				CB924B21147A89BF00B751FD /* ModelSave.m */,
+				CB8BABB5147B3A1A00B20CF8 /* CustomCell110.h */,
+				CB8BABB6147B3A1B00B20CF8 /* CustomCell110.m */,
+				CB8BABB7147B3A1C00B20CF8 /* CustomCell110.xib */,
+				CB8FB6551486612200B7A2CE /* SaveResult.h */,
+				CB8FB6561486612200B7A2CE /* SaveResult.m */,
+				CB8FB6571486612200B7A2CE /* SaveResult.xib */,
+				CB8FB6581486612200B7A2CE /* DetailViewcontroller.h */,
+				CB8FB6591486612200B7A2CE /* DetailViewcontroller.m */,
+				CB8FB65A1486612200B7A2CE /* DetailViewcontroller.xib */,
+			);
+			name = Querypay;
+			sourceTree = "<group>";
+		};
+		CB9616A614834C1F002065DE /* Transpay */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F7AF914837438006EA7DC /* UIViewPassValueDelegate1111.h */,
+				CB8E70BF14835077001DB1F6 /* banding.h */,
+				CB8E70C014835077001DB1F6 /* banding.m */,
+				CB8E70DD14835CEB001DB1F6 /* CustomCell12.h */,
+				CB8E70DE14835CEC001DB1F6 /* CustomCell12.m */,
+				CB8E70DF14835CED001DB1F6 /* CustomCell12.xib */,
+				CB8E70C2148351F3001DB1F6 /* bandingResult.h */,
+				CB8E70C3148351F3001DB1F6 /* bandingResult.m */,
+				CB8E70C4148351F3001DB1F6 /* bandingResult.xib */,
+			);
+			name = Transpay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB405329147A6D8F002A52D4 /* TranspayTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB405367147A6D91002A52D4 /* Build configuration list for PBXNativeTarget "TranspayTool" */;
+			buildPhases = (
+				CB405326147A6D8F002A52D4 /* Sources */,
+				CB405327147A6D8F002A52D4 /* Frameworks */,
+				CB405328147A6D8F002A52D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranspayTool;
+			productName = "转账宝";
+			productReference = CB40532A147A6D8F002A52D4 /* TranspayTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB405353147A6D90002A52D4 /* TranspayToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB40536A147A6D91002A52D4 /* Build configuration list for PBXNativeTarget "TranspayToolTests" */;
+			buildPhases = (
+				CB40534F147A6D90002A52D4 /* Sources */,
+				CB405350147A6D90002A52D4 /* Frameworks */,
+				CB405351147A6D90002A52D4 /* Resources */,
+				CB405352147A6D90002A52D4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB405359147A6D90002A52D4 /* PBXTargetDependency */,
+			);
+			name = TranspayToolTests;
+			productName = "转账宝Tests";
+			productReference = CB405354147A6D90002A52D4 /* TranspayToolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB405321147A6D8F002A52D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CB405324147A6D8F002A52D4 /* Build configuration list for PBXProject "TranspayTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB40531F147A6D8F002A52D4;
+			productRefGroup = CB40532B147A6D8F002A52D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB405329147A6D8F002A52D4 /* TranspayTool */,
+				CB405353147A6D90002A52D4 /* TranspayToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB405328147A6D8F002A52D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB405339147A6D8F002A52D4 /* InfoPlist.strings in Resources */,
+				CB405342147A6D8F002A52D4 /* MainWindow.xib in Resources */,
+				CB40534E147A6D8F002A52D4 /* SecondView.xib in Resources */,
+				CB405376147A6E34002A52D4 /* LoginViewController.xib in Resources */,
+				CB40537C147A735A002A52D4 /* Help.xib in Resources */,
+				CB924AE1147A761500B751FD /* tab1副本 2.png in Resources */,
+				CB924AE4147A762300B751FD /* tab2副本 2.png in Resources */,
+				CB924AE6147A762B00B751FD /* tab3副本 2.png in Resources */,
+				CB924AE8147A763000B751FD /* tab4副本 2.png in Resources */,
+				CB924AED147A76F300B751FD /* consult.xib in Resources */,
+				CB8BABB9147B3A1D00B20CF8 /* CustomCell110.xib in Resources */,
+				CB8980E0148322750073399E /* whiteButton.png in Resources */,
+				CB8980E31483227C0073399E /* blueButton.png in Resources */,
+				CB8980F5148323380073399E /* apress_logo.png in Resources */,
+				CB8E70C6148351F4001DB1F6 /* bandingResult.xib in Resources */,
+				CB8E70E114835CEF001DB1F6 /* CustomCell12.xib in Resources */,
+				CB8F7B0D14837DA1006EA7DC /* clientview.xib in Resources */,
+				CB8F382B1483C567002F5773 /* CustomCell.xib in Resources */,
+				CB8F38301483C6EA002F5773 /* historyResult.xib in Resources */,
+				CB89E1551484B39B00E8545E /* CustomCell2.xib in Resources */,
+				CB89E15A1484B49400E8545E /* bankResult.xib in Resources */,
+				CB8FB65C1486612200B7A2CE /* SaveResult.xib in Resources */,
+				CB8FB65E1486612200B7A2CE /* DetailViewcontroller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB405351147A6D90002A52D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40535F147A6D90002A52D4 /* InfoPlist.strings in Resources */,
+				CB405362147A6D90002A52D4 /* ___Tests.h in Resources */,
+				CB405377147A6E34002A52D4 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB405352147A6D90002A52D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB405326147A6D8F002A52D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40533C147A6D8F002A52D4 /* main.m in Sources */,
+				CB40533F147A6D8F002A52D4 /* ___AppDelegate.m in Sources */,
+				CB405348147A6D8F002A52D4 /* SecondViewController.m in Sources */,
+				CB405374147A6E34002A52D4 /* LoginViewController.m in Sources */,
+				CB40537B147A735A002A52D4 /* Help.m in Sources */,
+				CB924AEC147A76F300B751FD /* consult.m in Sources */,
+				CB924B22147A89BF00B751FD /* ModelSave.m in Sources */,
+				CB8BABB8147B3A1D00B20CF8 /* CustomCell110.m in Sources */,
+				CB8E70C114835077001DB1F6 /* banding.m in Sources */,
+				CB8E70C5148351F4001DB1F6 /* bandingResult.m in Sources */,
+				CB8E70E014835CEF001DB1F6 /* CustomCell12.m in Sources */,
+				CB8F7B0814837D21006EA7DC /* client.m in Sources */,
+				CB8F7B0C14837DA1006EA7DC /* clientview.m in Sources */,
+				CB8F38261483C459002F5773 /* history.m in Sources */,
+				CB8F382A1483C567002F5773 /* CustomCell.m in Sources */,
+				CB8F382F1483C6EA002F5773 /* historyResult.m in Sources */,
+				CB89E1501484B27700E8545E /* bank.m in Sources */,
+				CB89E1541484B39B00E8545E /* CustomCell2.m in Sources */,
+				CB89E1591484B49400E8545E /* bankResult.m in Sources */,
+				CB8FB65B1486612200B7A2CE /* SaveResult.m in Sources */,
+				CB8FB65D1486612200B7A2CE /* DetailViewcontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40534F147A6D90002A52D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB405364147A6D91002A52D4 /* ___Tests.m in Sources */,
+				CB405375147A6E34002A52D4 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB405359147A6D90002A52D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB405329147A6D8F002A52D4 /* TranspayTool */;
+			targetProxy = CB405358147A6D90002A52D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB405337147A6D8F002A52D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB405338147A6D8F002A52D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB405340147A6D8F002A52D4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB405341147A6D8F002A52D4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB40534C147A6D8F002A52D4 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB40534D147A6D8F002A52D4 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		CB40535D147A6D90002A52D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB40535E147A6D90002A52D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB405365147A6D91002A52D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB405366147A6D91002A52D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB405368147A6D91002A52D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转账宝/TranspayTool-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "转账宝/TranspayTool-Info.plist";
+				PRODUCT_NAME = TranspayTool;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB405369147A6D91002A52D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转账宝/TranspayTool-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "转账宝/TranspayTool-Info.plist";
+				PRODUCT_NAME = TranspayTool;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB40536B147A6D91002A52D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/转账宝.app/转账宝";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转账宝Tests/TranspayToolTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "转账宝Tests/TranspayToolTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = TranspayToolTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CB40536C147A6D91002A52D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/转账宝.app/转账宝";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转账宝Tests/TranspayToolTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "转账宝Tests/TranspayToolTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = TranspayToolTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB405324147A6D8F002A52D4 /* Build configuration list for PBXProject "TranspayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB405365147A6D91002A52D4 /* Debug */,
+				CB405366147A6D91002A52D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB405367147A6D91002A52D4 /* Build configuration list for PBXNativeTarget "TranspayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB405368147A6D91002A52D4 /* Debug */,
+				CB405369147A6D91002A52D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB40536A147A6D91002A52D4 /* Build configuration list for PBXNativeTarget "TranspayToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40536B147A6D91002A52D4 /* Debug */,
+				CB40536C147A6D91002A52D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB405321147A6D8F002A52D4 /* Project object */;
+}
